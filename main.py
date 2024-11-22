@@ -16,4 +16,4 @@ async def root():
 #     return {"item_id": item_id, "q": q}
 
 # Mount the Chainlit application
-mount_chainlit(app=app, target="my_cl_app.py", path="/chainlit")
+mount_chainlit(app=app, target="openapi_chainlit.py", path="/chainlit")
